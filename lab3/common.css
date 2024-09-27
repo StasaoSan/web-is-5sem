@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 46px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.black-text {
+    color: black;
+}
+
+.green-text {
+    color: forestgreen;
+}
+
+.light-red-text {
+    color: #be6d76;
+}
+
+
+.red-text {
+    color: darkred;
+}
