@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f0f8ff;
+}
+
+.logo {
+    width: 150px;
+}
+
+.buy-button {
+    background-color: forestgreen;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.buy-button:hover {
+    background-color: darkgreen;
+}
+.button {
+    color: #dddddd;
+}
