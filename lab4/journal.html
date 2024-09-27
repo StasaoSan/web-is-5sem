@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="body.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="journal-body.css">
+  <script src="scripts.js" defer></script>
+  <script src="carousel.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="keywords" content="ninebot, e-scooter, ubox, vesc, электросамокат" >
+  <meta name="description" content="Раскрой потенциал своего самоката с большими вложениями! С нами ты сможешь вывести свой ninebot на сверхзвук">
+  <title> Вывести свой ninebot на свехзвук </title>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <a href="index.html"><img src="imgs/logo.png" alt="Logo" width="150"></a>
+  </div>
+  <nav class="menu">
+    <ul class="menu-list">
+      <li><a href="flipsky.html">FlipSky</a></li>
+      <li><a href="ubox.html">UBOX</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Проекты</a>
+        <ul class="dropdown-content">
+          <li><a href="project1.html">Ninebot G2 UNLUCKY</a></li>
+          <li><a href="project2.html">Ninebot GT12 overgrown</a></li>
+          <li><a href="journal.html">Калькулятор проектов</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="buy-button">
+    <a href="https://t.me/hydrogenoffone" class="button"></a>
+  </div>
+</header>
+
+<main>
+  <div class="title">
+  <span class="pmc-slogan">Самый <span class="highlight">БЕССМЫСЛЕННЫЙ</span> в истории <a href="pmc.html" class="pmc-button">PMC NINEBOATCUM</a> журнал тюнинга</span>
+  </div>
+  <form id="tuning-form">
+    <label for="part-name">Название запчасти:</label>
+    <input type="text" id="part-name" required>
+
+    <label for="part-price">Цена (₽):</label>
+    <input type="number" id="part-price" required>
+
+    <label for="priority">Желанность (1-10):</label>
+    <input type="number" id="priority" min="1" max="10" value="5">
+
+    <button type="submit">Добавить</button>
+  </form>
+  <h2>Список запчастей</h2>
+  <div>
+      <label>Сортировать по желанности:</label>
+      <input type="checkbox" id="sort-priority">
+
+      <label>Сортировать по цене:</label>
+      <input type="checkbox" id="sort-price">
+    </div>
+
+    <button id="clear-completed" style="display: none;">Очистить выполненные</button>
+
+    <ul id="tuning-list"></ul>
+
+</main>
+<footer> <h3> Подвал в разработке </h3> </footer>
+</body>
+</html>

@@ -43,7 +43,7 @@ main{
     text-align: center;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .vesc-coating-comment {
@@ -227,6 +227,7 @@ main{
     padding-left: 20px;
 }
 
+
 .photos {
     display: flex;
     align-items: center;
@@ -252,11 +253,6 @@ main{
 @media screen and (max-width: 768px) {
     .stock img {
         width: 50%
-    }
-
-    .title {
-        margin: 20px 0;
-        font-size: 25px;
     }
 
     .photos {
@@ -352,4 +348,34 @@ main{
         border-radius: 10px;
         margin-right: 10px;
     }
+}
+
+
+
+
+
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form input, form button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+main {
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: green;
 }
