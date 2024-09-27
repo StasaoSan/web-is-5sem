@@ -132,3 +132,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     renderItems();
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuLinks = document.querySelectorAll('.menu-list a');
+
+    const currentUrl = window.location.pathname.split('/').pop();
+
+    menuLinks.forEach(link => {
+        const linkUrl = link.getAttribute('href').split('/').pop();
+
+        if (linkUrl === currentUrl) {
+            link.classList.add('active');
+        }
+    });
+});
