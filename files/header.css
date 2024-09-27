@@ -62,11 +62,6 @@
     display: inline-block;
 }
 
-.menu-list a.active {
-    color: white;
-    font-weight: bold;
-}
-
 .menu-list a:hover {
     color: darkgreen;
 }
